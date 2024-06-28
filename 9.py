@@ -1,5 +1,5 @@
 """
-9. Palindrome Number
+9. Palindrome Number (E)
 
 Given an integer x, return true if x is a palindrome, and false otherwise.
 
@@ -56,7 +56,7 @@ class Solution:
         return True
 
 
-class TestIsPalindrome(unittest.TestCase):
+class TestSolution(unittest.TestCase):
 
     def setUp(self):
         self.isPal = Solution().isPalindrome
